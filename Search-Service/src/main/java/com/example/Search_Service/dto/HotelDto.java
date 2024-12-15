@@ -1,7 +1,11 @@
 package com.example.Search_Service.dto;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @Data
 public class HotelDto {
     private Long id;
@@ -9,4 +13,5 @@ public class HotelDto {
     private String destination;
     private String address;
     private Double pricePerNight;
+
 }
