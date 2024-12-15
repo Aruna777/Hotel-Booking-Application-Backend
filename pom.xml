@@ -10,6 +10,7 @@
 
 		<modules>
 			<module>Authentication-Service</module>
+			<module>Search-Service</module>
 		</modules>
 
 	<dependencyManagement>
