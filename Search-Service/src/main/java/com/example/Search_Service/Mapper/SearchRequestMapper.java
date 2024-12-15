@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @Component
 public class SearchRequestMapper {
-    // Converts SearchRequestDto to an internal object or entity
+
     public SearchRequestDto toSearchRequestDto(String destination, LocalDate checkInDate, LocalDate checkOutDate, int guests) {
         SearchRequestDto dto = new SearchRequestDto();
         dto.setDestination(destination);
